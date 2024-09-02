@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\Users\vidhyadharan\Downloads\QuizMaker\src\wallpaperflare.com_wallpaper.jpg');
+  }
+  
+  /* Navbar */
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: #007bff; /* Primary color */
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.25rem;
+  }
+  
+  /* Quiz Container */
+  #quizContainer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  /* Form Styles */
+  form {
+    margin: 20px 0;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .btn-primary {
+    border-radius: 0.25rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40; /* Dark color */
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #ffffff;
+  }
+  
+  footer a:hover {
+    color: #dcdcdc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  }
+  
